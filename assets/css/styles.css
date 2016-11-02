@@ -1,0 +1,21 @@
+
+
+
+/*Footer*/
+.page-footer{
+    background-color: #3949ab !important;
+}
+.footer-copyright{
+    background-color: #394977 !important;
+}
+.btn-floating.btn-large i {
+    line-height: 48px;
+}
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+    float: right;
+    margin-top: -45px;
+    margin-right: 302px;
+    background-color: #00acc1;
+}
