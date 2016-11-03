@@ -1,0 +1,17 @@
+header .topOfPage .seconnecter {
+  float: right;
+  color: white;
+  margin-right: 15px; }
+header .banner {
+  /*Parallax*/
+  background-image: url("../images/bg_argent.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+header .smallLine {
+  height: 2px;
+  width: 100%;
+  background: yellow; }
+
+/*# sourceMappingURL=fromSass.css.map */

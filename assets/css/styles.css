@@ -1,17 +1,100 @@
 
+*{
+    transition: 0.5s ease;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Before the Navbar*/
+.topOfPage{
+    height: 30px;
+    background-color: #394977;
+}
+.banner{
+    height: 150px;
+    display: flex;
+}
+.banner img{
+    height: 140px;
+    width: 140px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.banner div{
+    margin-top: 3px;
+    text-align: center;
+}
+.banner h3 {
+    font-size: 2.8rem;
+    line-height: 106%;
+    margin: 0;
+    margin-right: 10%;
+}
+ .banner a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+    float: right;
+    margin-top: 13px;
+    margin-right: 50%;
+}
+.topBtn{
+    visibility: hidden;
+}
+/*Affix*/
+#map{
+  height: 80%;
+  width: 100px;
+}
+
+
+
+/*Navbar*/
+nav {
+    background-color: #394977 !important;
+    top: 180px !important;
+}
+nav ul a:hover {
+    color: #ffeb3b !important;
+}
+
+/*Carousel*/
+.slider img{
+    max-height: 100%;
+}
+.slider .indicators{
+    top: 80%;
+    z-index: 1000;
+}
+.slider .indicators .indicator-item{
+    border: 1px solid black;
+}
+.slider .indicators .indicator-item.active {
+    background-color: #394977;
+}
+
+
+
 
 
 /*Footer*/
 .page-footer{
     background-color: #3949ab !important;
+    color: #f5f5f5 !important
+}
+.page-footer a{
+    color: #f5f5f5 !important
 }
 .footer-copyright{
     background-color: #394977 !important;
 }
 .btn-floating.btn-large i {
     line-height: 48px;
+    color: rgba(0, 0, 0, 0.8);
 }
-a:not([href]):not([tabindex]) {
+footer a:not([href]):not([tabindex]) {
     color: inherit;
     text-decoration: none;
     float: right;

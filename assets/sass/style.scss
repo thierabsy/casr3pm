@@ -1,0 +1,58 @@
+
+
+header{
+    .topOfPage{
+        .seconnecter{
+            float:  right;
+            color: white;
+            margin-right: 15px;
+        }
+    }
+    .banner{
+        /*Parallax*/
+        background-image: url( "../images/bg_argent.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        img{}
+        h3{}
+        a{}
+    }
+    nav{
+        .nav-wrapper{
+            a .brand-logo{}
+            a .button-collapse{}
+            ul .right{}
+            ul .sidenav{}
+        }
+    }
+    .smallLine{
+        height: 2px;
+        width: 100%;
+        background: yellow;
+    }
+
+}
+
+.bodywrapper{
+    .slider{
+        ul .slides{
+            li{
+               img{}
+               .caption{
+                   h3{}
+                   h5{}
+               } 
+            }
+        }
+
+    }
+}
+
+
+
+
+footer{
+
+}
