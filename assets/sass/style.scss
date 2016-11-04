@@ -60,11 +60,20 @@ header{
     }
     nav{
         .nav-wrapper{
-            a .brand-logo{}
+            .brand-logo{
+                @media (max-width: 1325px){
+                    visibility: hidden !important;
+                }
+            }
             a .button-collapse{}
             ul .right{}
             ul .sidenav{}
         }
+        
+        @media (max-width:1200){
+            ul li span .apropos{ visibility: hidden !important;
+        }
+    }
     }
     .smallLine{
         height: 2px;

@@ -43,6 +43,12 @@ header .banner {
         font-size: 30px;
         margin: 0;
         margin-right: 1%; } }
+@media (max-width: 1325px) {
+  header nav .nav-wrapper .brand-logo {
+    visibility: hidden !important; } }
+@media (max-width: 1200) {
+  header nav ul li span .apropos {
+    visibility: hidden !important; } }
 header .smallLine {
   height: 2px;
   width: 100%;
