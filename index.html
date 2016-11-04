@@ -13,6 +13,7 @@
 	<title>CASR3PM</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="assets/images/fav.png">
 	<script type="text/javascript">
 var map;
 function initMap() {
@@ -46,6 +47,16 @@ function initMap() {
 	<header>
 
 		<div class="topOfPage">
+			<div class="network">
+				<a href=""> <img src="assets/images/reseaux_sociaux/youtube.png" alt="Facebook"></a>
+				<a href=""> <img src="assets/images/reseaux_sociaux/linkedin.png" alt="Facebook"></a>
+				<a href=""> <img src="assets/images/reseaux_sociaux/facebook.png" alt="Facebook"></a>
+				<a href=""> <img src="assets/images/reseaux_sociaux/twitter.png" alt="Facebook"></a>
+			</div>
+			<div class="telephone">
+				<i class="fa fa-phone"></i> Téléphone: +221 33 333 33 33 - +221 78 000 00 00 
+			</div>
+
 			<div class="seconnecter">
 				Se connecter <i class="fa fa-sign-in"></i>
 			</div>
@@ -95,9 +106,9 @@ function initMap() {
 				</ul>
 			</div>
 		</nav>
-			<div class="smallLine"></div>
+		<div class="smallLine"></div>
 	</header>
-	
+
 
 	<div class="bodywrapper">
 
@@ -167,7 +178,7 @@ function initMap() {
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6 offset-l2 s12">
 					<h5 class="white-text">MAP</h5>
-
+					<div style="margin:0 auto;" id="zbwid-aade79cc"></div>
 				</div>
 			</div>
 		</div>
@@ -188,6 +199,9 @@ function initMap() {
 		crossorigin="anonymous"></script>
 	<!--Materialize-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<!--Google Map-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCB76D2mBo6keHa4q9OsQuNUNXg99o0w4&callback=initMap" async
+		defer></script>
 
 	<script src="assets/js/my_js.js"></script>
 	<script src="assets/js/gmap.js"></script>>
