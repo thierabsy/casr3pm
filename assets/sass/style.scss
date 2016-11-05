@@ -10,10 +10,14 @@ header{
             width: 29px;
             height: 29px;
         }
+        .telephone{
+            padding: 2px;
+        }
         .seconnecter{
             float:  right;
             color: white;
             margin-right: 15px;
+            padding: 2px;
         }
     }
     .banner{
@@ -66,14 +70,15 @@ header{
                 }
             }
             a .button-collapse{}
-            ul .right{}
+            ul .right{
+                @media (max-width:1200){
+                    li span .apropos{ display: h;
+        }
+    }
+            }
             ul .sidenav{}
         }
         
-        @media (max-width:1200){
-            ul li span .apropos{ visibility: hidden !important;
-        }
-    }
     }
     .smallLine{
         height: 2px;

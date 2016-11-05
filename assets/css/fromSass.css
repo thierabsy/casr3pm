@@ -6,10 +6,13 @@ header .topOfPage {
   header .topOfPage a img {
     width: 29px;
     height: 29px; }
+  header .topOfPage .telephone {
+    padding: 2px; }
   header .topOfPage .seconnecter {
     float: right;
     color: white;
-    margin-right: 15px; }
+    margin-right: 15px;
+    padding: 2px; }
 header .banner {
   /*Parallax*/
   background-image: linear-gradient() url("../images/bg_argent.jpg");
@@ -47,8 +50,8 @@ header .banner {
   header nav .nav-wrapper .brand-logo {
     visibility: hidden !important; } }
 @media (max-width: 1200) {
-  header nav ul li span .apropos {
-    visibility: hidden !important; } }
+  header nav .nav-wrapper ul .right li span .apropos {
+    display: h; } }
 header .smallLine {
   height: 2px;
   width: 100%;
