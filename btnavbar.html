@@ -14,6 +14,7 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" type="image/png" href="assets/images/fav.png">
+	<link rel="stylesheet" type="" href="assets/css/pgwslider.min.css">
 	<script type="text/javascript">
 var map;
 function initMap() {
@@ -28,7 +29,7 @@ function initMap() {
 		crossorigin="anonymous">
 
 	<!--Materialize-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">-->
 	<!--Font awesome-->
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 	<!--My styles-->
@@ -55,14 +56,14 @@ function initMap() {
 				<a href=""> <img src="assets/images/reseaux_sociaux/telegram.png" alt="Facebook"></a>
 			</div>
 			<div class="telephone">
-				<i class="fa fa-phone"></i> Téléphone: +221 33 333 33 33 - +221 78 000 00 00 
+				<i class="fa fa-phone"></i> Téléphone: +221 33 333 33 33 - +221 78 000 00 00
 			</div>
 
 			<div class="seconnecter">
 				Se connecter <i class="fa fa-sign-in"></i>
 			</div>
 		</div>
-<div class="smallLine smallLineFixed"></div>
+		<div class="smallLine smallLineFixed"></div>
 		<div class="banner">
 			<img class="slideRight" src="assets/images/logo1.png" alt="Logo CASR3PM">
 			<div>
@@ -75,82 +76,63 @@ function initMap() {
 
 		<!--NAVBAR-->
 
-<nav class="navbar navbar-light bg-faded" >
-  <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
-  <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-    <!--<a class="navbar-brand" href="#">CASR3PM</a>-->
-    <ul class="nav navbar-nav pull-right">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"><i class="fa fa-home"></i> ACCUEIL <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><span class="apropos"></span> CASR3PM</a></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">PROGRAMMES</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ETUDIANTS</a>
-        <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
-          <a class="dropdown-item" href="#">BOURSES-AIDES</a>
-          <a class="dropdown-item" href="#">ADMISSIONS</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-	        <li class="nav-item">
-        <a class="nav-link" href="#">CORPS PROFESSORAL</a>
-	        <li class="nav-item">
-        <a class="nav-link" href="#">RESSOURCES</a>
-      </li>
-	        <li class="nav-item">
-        <a class="nav-link" href="#">CONTACT</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+		<nav class="navbar navbar-light bg-faded">
+			<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+				aria-expanded="false" aria-label="Toggle navigation" style="color:white;"></button>
+			<div class="collapse navbar-toggleable-md" id="navbarResponsive">
+				<a class="navbar-brand pull-left" href="#">CASR3PM</a>
+				<ul class="nav navbar-nav pull-right">
+					<li class="nav-item active">
+						<a class="nav-link" href="#"><i class="fa fa-home"></i> ACCUEIL <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><span class="apropos"></span> CASR3PM</a></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">PROGRAMMES</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="http://example.com" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true"
+							aria-expanded="false">ETUDIANTS</a>
+						<div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
+							<a class="dropdown-item" href="#">BOURSES-AIDES</a>
+							<a class="dropdown-item" href="#">ADMISSIONS</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">CORPS PROFESSORAL</a>
+						<li class="nav-item">
+							<a class="nav-link" href="#">RESSOURCES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">CONTACT</a>
+						</li>
+				</ul>
+			</div>
+		</nav>
 		<div class="smallLine smallLineNav"></div>
 	</header>
 
 
 	<div class="bodywrapper">
 
-		<!--Carourel-->
-		<div class="slider">
-			<ul class="slides">
+		<!--Images slider-->
+		<div class="imageSlider">
+			<ul class="pgwSlider">
+				<li><img src="assets/images/fichier/tanaka.jpg" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
+				<li><img src="assets/images/fichier/tanaka.jpg" alt="Montréal, QC, Canada" data-large-src="assets/images/fichier/tanaka.jpg"></li>
 				<li>
 					<img src="assets/images/fichier/tanaka.jpg">
-					<!-- random image -->
-					<div class="caption center-align">
-						<h3>This is our big Tagline!</h3>
-						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-					</div>
+					<span>Shanghai, China</span>
 				</li>
 				<li>
-					<img src="assets/images/fichier/tanakaRemiseCertification.jpg">
-					<!-- random image -->
-					<div class="caption left-align">
-						<h3>Left Aligned Caption</h3>
-						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-					</div>
-				</li>
-				<li>
-					<img src="http://lorempixel.com/580/250/nature/3">
-					<!-- random image -->
-					<div class="caption right-align">
-						<h3>Right Aligned Caption</h3>
-						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-					</div>
-				</li>
-				<li>
-					<img src="assets/images/fichier/tanakaRemiseCertification2.jpg">
-					<!-- random image -->
-					<div class="caption center-align">
-						<h3>This is our big Tagline!</h3>
-						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-					</div>
+					<a href="http://www.nyc.gov" target="_blank">
+						<img src="assets/images/fichier/tanaka.jpg">
+						<span>New York, NY, USA</span>
+					</a>
 				</li>
 			</ul>
-			
 		</div>
 	</div>
 
@@ -210,7 +192,17 @@ function initMap() {
 	<script src="assets/js/jquery.fittext.js"></script>
 	<script src="assets/js/jquery.lettering-0.6.1.min.js"></script>
 	<script src="assets/js/jquery.textillate.js"></script>
-	
+	<script src="assets/js/pgwslider.min.js"> </script>
+	<script>
+    $(document).ready(function() {
+    $('.pgwSlider').pgwSlider({
+    maxHeight : 400,
+    intervalDuration : 4000
+}
+	);
+});
+  </script>
+
 
 </body>
 

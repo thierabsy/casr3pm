@@ -15,7 +15,7 @@ html, body{
     background-color: #394977;
 }
 .banner{
-    height: 180px;
+    height: 200px;
     display: flex;
     padding-top: 30px;
 }
@@ -81,13 +81,14 @@ a .nav-link{
 }
 
 /*Carousel*/
-.slider img{
-    max-height: 100%;
+.carousel-item img{
+    max-height: 300px;
+    width: 100% !important;
 }
-.slider .indicators{
+/*.slider .indicators{
     top: 80%;
     z-index: 1000;
-}
+}*/
 .slider .indicators .indicator-item{
     border: 1px solid black;
 }
