@@ -1,0 +1,33 @@
+{
+  "name": "jQuery-scrollFix",
+  "version": "2.0.2",
+  "description": "滚动固定在某个位置的jQuery插件",
+  "main": "jQuery.scrollFix.js",
+  "scripts": {
+    "test": "gulp server",
+    "start": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengqing723/jQuery-scrollFix.git"
+  },
+  "keywords": [
+    "scroll",
+    "fixed",
+    "jQuery"
+  ],
+  "author": "mengqing723@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mengqing723/jQuery-scrollFix/issues"
+  },
+  "homepage": "https://github.com/mengqing723/jQuery-scrollFix",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-connect": "^5.0.0",
+    "gulp-header": "^1.7.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^2.0.0"
+  }
+}

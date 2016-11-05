@@ -8,14 +8,16 @@ html, body{
 
 }
 
+
 /*Before the Navbar*/
 .topOfPage{
     height: 30px;
     background-color: #394977;
 }
 .banner{
-    height: 150px;
+    height: 180px;
     display: flex;
+    padding-top: 30px;
 }
 .banner img{
     height: 140px;
@@ -54,10 +56,20 @@ html, body{
 /*Navbar*/
 nav {
     background-color: #394977 !important;
-    top: 180px !important;
+    /*top: 180px !important;*/
 }
 nav ul a:hover {
     color: #ffeb3b !important;
+}
+
+a .nav-link{
+    height: 64px;
+    border-top: 0;
+}
+.navbar-nav .nav-link {
+    display: block;
+     padding-top: 0; 
+    padding-bottom: 0; 
 }
 
 /*Carousel*/
