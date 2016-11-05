@@ -19,12 +19,12 @@ header .smallLineFixed {
   top: 30px; }
 header .banner {
   /*Parallax*/
-  background-image: url("../images/IconMosaic.png");
+  /*background-image: url( "../images/IconMosaic.png") ;*/
   /*background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;*/
-  height: 150px; }
+  height: 180px; }
   @media (max-width: 1276px) {
     header .banner h3 {
       font-size: 35px;
@@ -51,15 +51,19 @@ header .banner {
         font-size: 30px;
         margin: 0;
         margin-right: 1%; } }
-header nav .fixed {
-  width: 100% !important; }
-@media (max-width: 1325px) {
-  header nav .nav-wrapper .brand-logo {
-    visibility: hidden !important; } }
-@media (max-width: 1200) {
-  header nav .nav-wrapper ul .right li span .apropos {
-    display: h; } }
-header .smallLine {
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center; }
+  header nav #navbarResponsive {
+    width: 100%;
+    padding: 0 5px; }
+  @media (max-width: 1325px) {
+    header nav .nav-wrapper .brand-logo {
+      visibility: hidden !important; } }
+
+.smallLine {
   height: 2px;
   width: 100%;
   background: yellow; }

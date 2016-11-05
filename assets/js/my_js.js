@@ -12,19 +12,12 @@ $( document ).ready(function(){
 
    $('.parallax').parallax();
 
-   $('nav').scrollFix({
-     top: 32
-    });
      $('.topOfThePage').scrollFix({
        top:0
     });
      $('.smallLineFixed').scrollFix({
        top:30
     });
-     $('.smallLineNav').scrollFix({
-       top:96
-    });
-
 
   $('.dropdown-button').dropdown({
       inDuration: 300,

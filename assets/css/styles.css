@@ -61,10 +61,18 @@ nav {
 nav ul a:hover {
     color: #ffeb3b !important;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: white;
+}
+
 
 a .nav-link{
-    height: 64px;
+    height: 100%;
     border-top: 0;
+    color: white;
 }
 .navbar-nav .nav-link {
     display: block;
@@ -94,10 +102,10 @@ a .nav-link{
 /*Footer*/
 .page-footer{
     background-color: #3949ab !important;
-    color: #f5f5f5 !important
+    color: #f5f5f5 !important;
 }
 .page-footer a{
-    color: #f5f5f5 !important
+    color: #f5f5f5 !important;
 }
 .footer-copyright{
     background-color: #394977 !important;

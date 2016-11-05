@@ -27,12 +27,12 @@ header{
     }
     .banner{
         /*Parallax*/
-        background-image: url( "../images/IconMosaic.png") ;
+        /*background-image: url( "../images/IconMosaic.png") ;*/
         /*background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;*/
-        height: 150px;
+        height: 180px;
         img{}
         h3{
             @media (max-width: 1276px){
@@ -69,8 +69,14 @@ header{
         }
     }
     nav{
-        .fixed{
-            width: 100% !important;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        #navbarResponsive{
+            width: 100%;
+            padding: 0 5px;
+
         }
         .nav-wrapper{
             .brand-logo{
@@ -79,11 +85,7 @@ header{
                 }
             }
             a .button-collapse{}
-            ul .right{
-                @media (max-width:1200){
-                    li span .apropos{ display: h;
-        }
-    }
+            ul .right{}
             }
             ul .sidenav{}
         }
@@ -93,9 +95,9 @@ header{
         height: 2px;
         width: 100%;
         background: yellow;
-    }
+        }
 
-}
+
 
 .bodywrapper{
     .slider{
