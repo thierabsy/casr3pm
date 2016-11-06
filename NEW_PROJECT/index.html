@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-  <title>Starter Template - Materialize</title>
+  <title>CASR3PM</title>
   <!--Font awesome-->
   <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
   <!-- CSS  -->
@@ -12,6 +12,9 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/fromSass.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/pgwslider.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/animations.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/animate.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
@@ -37,10 +40,10 @@
     </div>
     <div class="smallLine smallLineFixed"></div>
     <div class="banner">
-      <div>
+      <div class="logoImg">
         <img class="slideRight" src="../assets/images/logo1.png" alt="Logo CASR3PM">
       </div>
-      <div>
+      <div class="textContent">
         <h3 class="letering"> Centre d'Etudes Avancées et de Recherches en Management de Projets, Programmes et Portefeuilles</h3>
         <a class="waves-effect waves-light btn yellow topBtn">En savoir plus <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
       </div>
@@ -56,7 +59,7 @@
           <li><a href="#">CASR3PM</a></li>
           <li><a href="#">PROGRAMMES</a></li>
           <li class="dropdwn">
-            <a href="#" class="dropbtn">ETUDIANTS</a>
+            <a href="#" class="dropbtn">ETUDIANTS<i class="fa fa-caret-down" aria-hidden="true"></i></a>
             <div class="dropdwn-content">
               <a href="#">ADMISSIONS</a>
               <a href="#">BOURSES ET AIDES</a>
@@ -65,7 +68,7 @@
           </li>
           <li><a href="#">CORPS PROFESSORAL</a></li>
           <li class="dropdwn">
-            <a href="#" class="dropbtn">RESSOURCES</a>
+            <a href="#" class="dropbtn">RESSOURCES<i class="fa fa-caret-down" aria-hidden="true"></i></a>
             <div class="dropdwn-content">
               <a href="#">PUBLICATIONS</a>
               <a href="#">RECHERCHES</a>
@@ -81,21 +84,75 @@
           <li><a href="#">CASR3PM</a></li>
           <li><a href="#">PROGRAMMES</a></li>
           <li class="dropdwn">
-            <a href="#" class="dropbtn">ETUDIANTS</a>
+            <a href="#" class="dropbtn">ETUDIANTS <i class="fa fa-caret-down" aria-hidden="true"></i></a>
             <div class="dropdwn-content">
-              <a href="#">ADMISSIONS</a>
+              <a href="#">ADMISSIONS </a>
               <a href="#">BOURSES ET AIDES</a>
               <a href="#">RECHERCHES</a>
             </div>
             <li><a href="#">CORPS PROFESSORAL</a></li>
-            <li><a href="#">RESSOURCES</a></li>
+            <li><a href="#">RESSOURCES <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
             <li><a href="#">CONTACT</a></li>
         </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       </div>
     </nav>
-
   </header>
+
+  <!--CAROUSEL-->
+  <!--<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="../assets/images/fichier/tanaka.jpg"> 
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="../assets/images/fichier/tanakaRemiseCertification.jpg">
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/3"> 
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/4"> 
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>-->
+  		<div class="grayLine"></div>
+		<div class="imgSlider">
+			<ul class="pgwSlider">
+				<li><img src="../assets/images/fichier/tanaka.jpg" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
+				<li><img src="../assets/images/fichier/tanaka.jpg" alt="Montréal, QC, Canada" data-large-src="../assets/images/fichier/tanaka.jpg"></li>
+				<li>
+					<img src="../assets/images/fichier/tanaka.jpg">
+					<span>Shanghai, China</span>
+				</li>
+				<li>
+					<a href="http://www.nyc.gov" target="_blank">
+						<img src="../assets/images/fichier/tanaka.jpg">
+						<span>New York, NY, USA</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+      
+
+
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
@@ -157,49 +214,56 @@
     </div>
   </div>
 
-  <footer class="page-footer orange">
+  <!--FOOTER-->
+  <footer class="page-footer">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support
-            and continue development on this project and is greatly appreciated.</p>
-
+        <div class="col l4 s12 apropos">
+          <h5 class="white-text"><b>CASR3PM</b></h5>
+          <div class="divider"></div>
+          <p class="grey-text text-lighten-4">Le Centre d'Études Avancées et de Recherche en Management de Projet, Programme et Portefeuille (CASR3PM), est une
+            institution indépendante d'enseignement supérieur œuvrant dans le domaine du management de projet, de programme
+            et de portefeuille.</p>
+            <div class="divider"></div>
 
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+        <div class="col l4  s12">
+          <h5 class="white-text navigation">NAVIGATION</h5>
+          <div class="divider"></div>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a href="mobile.html"> ACCUEIL</a></li>
+            <li><a href="sass.html">A PROPOS DE CASR3PM</a></li>
+            <li><a href="badges.html">PROGRAMMES</a></li>
+            <li><a href="collapsible.html">ADMISSIONS</a></li>
+            <li><a href="mobile.html">CORPS PROFESSORAL</a></li>
+            <li><a href="mobile.html">ETUDIANTS</a></li>
+            <li><a href="mobile.html">RESSOURCES</a></li>
+            <li><a href="mobile.html">CONTACT</a></li>
           </ul>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+        <div class="col l4  s12 contact">
+          <h5 class="white-text">Links</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-        Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        © 2016 SYTEK Innovation Response
+        <a class="grey-text text-lighten-4 right" href="#!"> <i class="fa fa-flag"></i> THANKS!</a>
       </div>
     </div>
   </footer>
-
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
+  <script src="js/pgwslider.js"></script>
 </body>
-
 </html>

@@ -61,6 +61,7 @@ li.dropdwn {
 
 .dropdwn:hover .dropdwn-content {
     display: block;
+    z-index: 10000;
 }
 
 @media only screen and (min-width: 993px){
@@ -85,7 +86,49 @@ nav .nav-wrapper {
 nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
     line-height: 64px;
-    margin-left: 19px;
+    margin-left: 15px;
 }
 }
 
+/*Footer*/
+.page-footer{
+    background-color: #3949ab !important;
+    color: #f5f5f5 !important;
+}
+.page-footer a{
+    color: #f5f5f5 !important;
+}
+.footer-copyright{
+    background-color: #394977 !important;
+}
+.btn-floating.btn-large i {
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.8);
+}
+footer a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+    float: right;
+    margin-top: -45px;
+    margin-right: 302px;
+    background-color: #00acc1;
+}
+
+@media only screen and (min-width: 993px){
+.row .col.l4 {
+    text-align: justify;
+}
+}
+
+.imgSlider{
+        width: 86%;
+        margin-left: 7% !important;
+        margin-right: 7% !important;
+}
+@media (max-width: 800px){
+    .imgSlider{
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+}
+}

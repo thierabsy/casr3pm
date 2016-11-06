@@ -44,8 +44,10 @@ header .topOfPage {
     color: white;
     margin-right: 15px;
     padding: 2px; }
+  @media (max-width: 660px) {
+    header .topOfPage .network {
+      display: none; } }
 header .banner {
-  background-image: url("bg-header.jpg");
   height: 233px;
   display: flex;
   /*padding-top: 30px;*/ }
@@ -65,11 +67,45 @@ header .banner {
     float: right;
     margin-top: 13px;
     margin-right: 46%; }
+  @media (max-width: 832px) {
+    header .banner .logoImg {
+      margin-left: 30%; }
+    header .banner .textContent {
+      display: none; } }
 @media (max-width: 1175px) {
   header nav .nav-wrapper {
     margin-left: -21px;
     margin-right: -21px; } }
 header nav .brand-logo {
   margin-left: 22px; }
+
+/*FOOTER*/
+footer {
+  /*Footer*/ }
+  footer .page-footer {
+    background-color: #3949ab !important;
+    color: #f5f5f5 !important; }
+    footer .page-footer a {
+      color: #f5f5f5 !important; }
+    footer .page-footer .myfooter {
+      display: flex; }
+      footer .page-footer .myfooter .apropos {
+        width: 30%; }
+      footer .page-footer .myfooter .navigation {
+        width: 30%; }
+      footer .page-footer .myfooter .contact {
+        width: 40%; }
+  footer .footer-copyright {
+    background-color: #394977 !important; }
+  footer .btn-floating.btn-large i {
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.8); }
+  footer a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+    float: right;
+    margin-top: -45px;
+    margin-right: 302px;
+    background-color: #00acc1; }
 
 /*# sourceMappingURL=fromSass.css.map */
