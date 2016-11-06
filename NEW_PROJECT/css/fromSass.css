@@ -1,0 +1,8 @@
+@media (max-width: 1175px) {
+  nav .nav-wrapper {
+    margin-left: -21px;
+    margin-right: -21px; } }
+nav .brand-logo {
+  margin-left: 22px; }
+
+/*# sourceMappingURL=fromSass.css.map */

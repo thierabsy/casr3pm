@@ -1,0 +1,12 @@
+
+nav{
+    .nav-wrapper{
+        @media (max-width:1175px){
+           margin-left: -21px;
+           margin-right: -21px;
+        }
+    }
+    .brand-logo{
+            margin-left: 22px;
+    }
+}

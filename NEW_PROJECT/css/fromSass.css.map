@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGQ,0BAAyB;EAD7B,gBAAY;IAEL,WAAW,EAAE,KAAK;IAClB,YAAY,EAAE,KAAK;AAG1B,eAAW;EACH,WAAW,EAAE,IAAI",
+"sources": ["../../assets/sass/materialize.scss"],
+"names": [],
+"file": "fromSass.css"
+}
