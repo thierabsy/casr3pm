@@ -79,23 +79,13 @@ a .nav-link{
      padding-top: 0; 
     padding-bottom: 0; 
 }
+.navbar-nav .nav-link.active {
+   background-color: yellow;
 
-/*Carousel*/
-.carousel-item img{
-    max-height: 300px;
-    width: 100% !important;
 }
-/*.slider .indicators{
-    top: 80%;
-    z-index: 1000;
-}*/
-.slider .indicators .indicator-item{
-    border: 1px solid black;
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+    color: rgba(243, 238, 238, 0.9);
 }
-.slider .indicators .indicator-item.active {
-    background-color: #394977;
-}
-
 
 
 
