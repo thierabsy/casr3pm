@@ -1,3 +1,6 @@
+body {
+  background: rgba(217, 217, 217, 0.75); }
+
 header .topOfPage {
   height: 30px;
   background-color: #394977;
@@ -34,7 +37,7 @@ header .topOfPage {
     header .topOfPage ul.network .fa-twitter {
       background: #00aced; }
     header .topOfPage ul.network .fa-youtube {
-      background: red; }
+      background: #CC181E; }
     header .topOfPage ul.network li a i:hover {
       opacity: .7; }
   header .topOfPage .telephone {
@@ -48,6 +51,7 @@ header .topOfPage {
     header .topOfPage .network {
       display: none; } }
 header .banner {
+  background: rgba(217, 217, 217, 0.75);
   height: 233px;
   display: flex;
   /*padding-top: 30px;*/ }
@@ -79,6 +83,19 @@ header .banner {
 header nav .brand-logo {
   margin-left: 22px; }
 
+.blueRectangle {
+  display: flex;
+  width: 100%;
+  background: transparent;
+  /*-webkit-radial-gradient(center bottom, #054b78 0%, #022c5a 30%);*/ }
+  .blueRectangle .myText h2 {
+    margin-left: 7%;
+    width: 86%;
+    /*height: 400px;*/
+    background: white; }
+  .blueRectangle section {
+    width: 100%; }
+
 /*FOOTER*/
 footer {
   /*Footer*/ }
@@ -90,6 +107,8 @@ footer {
     footer .page-footer .myfooter {
       display: flex; }
       footer .page-footer .myfooter .apropos {
+        text-align: justify;
+        text-justify: inter-word;
         width: 30%; }
       footer .page-footer .myfooter .navigation {
         width: 30%; }

@@ -1,3 +1,8 @@
+
+body{
+    background: rgba(217,217,217,0.75);
+}
+
 header{
     .topOfPage{
         height: 30px;
@@ -65,6 +70,7 @@ header{
         }
     }
     .banner{
+            background: rgba(217,217,217,0.75);
             height: 233px;
             display: flex;
             /*padding-top: 30px;*/
@@ -113,6 +119,20 @@ header{
 }
 }
 
+.blueRectangle{
+    display: flex;
+    width: 100%;
+    background: transparent;        /*-webkit-radial-gradient(center bottom, #054b78 0%, #022c5a 30%);*/
+    .myText h2{
+        margin-left: 7%;
+       width: 86%;
+        /*height: 400px;*/
+       background: white;
+    }
+    section{
+        width: 100%;
+    }
+}
 
 
 

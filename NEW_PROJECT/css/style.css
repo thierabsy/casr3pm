@@ -129,6 +129,24 @@ footer a:not([href]):not([tabindex]) {
     .imgSlider{
         width: 100%;
         margin-left: 0 !important;
-        margin-right: 0 !important;
+        margin-right: 0 !important;}
+    .myText h2 {
+    margin-left: 0;
+    width: 100%;
+    height: 300px;
+    background: white;
 }
+}
+
+.myText h2 {
+    margin-left: 7%;
+    width: 63.7%;
+    height: 400px;
+    background: white;
+}
+.myTextt h2 {
+    margin-left: 7%;
+    width: 63.7%;
+    height: 200px;
+    background: white;
 }
