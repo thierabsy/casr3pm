@@ -34,7 +34,7 @@ nav light-blue.lighten-1 {
 }
 /*DROPDOWN*/
 nav li a:hover, .dropdwn:hover .dropbtn {
-    background-color: red;
+    background-color: #607d8b;
 }
 
 li.dropdwn {
@@ -57,7 +57,7 @@ li.dropdwn {
     text-align: left;
 }
 
-.dropdwn-content a:hover {background-color: red}
+.dropdwn-content a:hover {background-color: #607d8b}
 
 .dropdwn:hover .dropdwn-content {
     display: block;
@@ -138,7 +138,7 @@ footer a:not([href]):not([tabindex]) {
 }
 }
 
-.myText h2 {
+/*.myText h2 {
     margin-left: 7%;
     width: 63.7%;
     height: 400px;
@@ -149,4 +149,4 @@ footer a:not([href]):not([tabindex]) {
     width: 63.7%;
     height: 200px;
     background: white;
-}
+}*/

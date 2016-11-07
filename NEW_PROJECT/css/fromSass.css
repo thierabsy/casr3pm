@@ -86,7 +86,7 @@ header nav .brand-logo {
 .blueRectangle {
   display: flex;
   width: 100%;
-  background: transparent;
+  background: #e0e0e0;
   /*-webkit-radial-gradient(center bottom, #054b78 0%, #022c5a 30%);*/ }
   .blueRectangle .myText h2 {
     margin-left: 7%;
@@ -94,7 +94,26 @@ header nav .brand-logo {
     /*height: 400px;*/
     background: white; }
   .blueRectangle section {
-    width: 100%; }
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+.afterSlider {
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 10px;
+  justify-content: space-between; }
+  .afterSlider .myTextt {
+    width: 74%;
+    height: auto;
+    background: blueviolet;
+    padding: 17px; }
+  .afterSlider .aside {
+    width: 25%;
+    background: #394977; }
+    .afterSlider .aside h5 {
+      text-align: center; }
 
 /*FOOTER*/
 footer {

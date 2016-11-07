@@ -122,7 +122,7 @@ header{
 .blueRectangle{
     display: flex;
     width: 100%;
-    background: transparent;        /*-webkit-radial-gradient(center bottom, #054b78 0%, #022c5a 30%);*/
+    background: #e0e0e0;        /*-webkit-radial-gradient(center bottom, #054b78 0%, #022c5a 30%);*/
     .myText h2{
         margin-left: 7%;
        width: 86%;
@@ -131,6 +131,30 @@ header{
     }
     section{
         width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+.afterSlider{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 10px;
+    justify-content: space-between;
+    
+    .myTextt{
+        width: 74%;
+        height: auto;
+        background: blueviolet;
+        padding: 17px;
+       
+    }
+    .aside{
+        width: 25%;
+        background: #394977;
+        h5{
+        text-align: center;
+        }
     }
 }
 
