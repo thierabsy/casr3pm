@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<!--Github: git remote add upstream https://github.com/thierabsy/casr3pm.git     git fetch upstream-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CASR3PM</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="assets/images/fav.png">
+	<script type="text/javascript">
+var map;
+function initMap() {
+	map = new google.maps.Map(document.getElementById('map'), {
+		center: {lat: -34.397, lng: 150.644},
+		zoom: 8
+	});
+}
+</script>
+	<!--Bootstrap 4-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi"
+		crossorigin="anonymous">
+
+	<!--Materialize-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<!--Font awesome-->
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<!--My styles-->
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/animations.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/animations.css">
+	<!--Scss Ouput-->
+	<link rel="stylesheet" href="assets/css/fromSass.css">
+</head>
+
+<body>
+	<!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+	<header>
+
+		<div class="topOfPage">
+			<div class="network">
+				<a href=""> <img src="assets/images/reseaux_sociaux/youtube.png" alt="Facebook"></a>
+				<a href=""> <img src="assets/images/reseaux_sociaux/linkedin.png" alt="Facebook"></a>
+				<a href=""> <img src="assets/images/reseaux_sociaux/facebook.png" alt="Facebook"></a>
+				<a href=""> <img src="assets/images/reseaux_sociaux/twitter.png" alt="Facebook"></a>
+			</div>
+			<div class="telephone">
+				<i class="fa fa-phone"></i> Téléphone: +221 33 333 33 33 - +221 78 000 00 00 
+			</div>
+
+			<div class="seconnecter">
+				Se connecter <i class="fa fa-sign-in"></i>
+			</div>
+		</div>
+
+		<div class="banner">
+			<img class="slideRight" src="assets/images/logo1.png" alt="Logo CASR3PM">
+			<div>
+				<h3 class="letering"> Centre d'Etudes Avancées et de Recherches en Management de Projets, Programmes et Portefeuilles</h3>
+				<a class="waves-effect waves-light btn yellow topBtn">En savoir plus <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+
+
+		<!--NAVBAR-->
+
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">CASR3PM</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse">
+					<i class="material-icons"><i class="fa fa-bars"></i></i>
+				</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="mobile.html"><i class="fa fa-home"></i> ACCUEIL</a></li>
+					<li><a href="sass.html"><span class="apropos">A PROPOS DE</span> CASR3PM</a></li>
+					<li><a href="badges.html">PROGRAMMES</a>
+						<ul id='dropdown1' class='dropdown-content'>
+							<li><a href="#!">one</a></li>
+							<li><a href="#!">two</a></li>
+							<li class="divider"></li>
+							<li><a href="#!">three</a></li>
+						</ul>
+					</li>
+					<li><a href="collapsible.html">ADMISSIONS</a></li>
+					<li><a href="mobile.html">BOURSES-AIDES</a></li>
+					<li><a href="mobile.html">CORPS PROFESSORAL</a></li>
+					<li><a href="mobile.html">ETUDIANTS</a></li>
+					<li><a href="mobile.html">RESSOURCES</a></li>
+					<li><a href="mobile.html">CONTACT</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<li><a href="collapsible.html">Javascript</a></li>
+					<li><a href="mobile.html">Mobile</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="smallLine"></div>
+	</header>
+
+
+	<div class="bodywrapper">
+
+		<!--Carourel-->
+		<div class="slider">
+			<ul class="slides">
+				<li>
+					<img src="assets/images/fichier/tanaka.jpg">
+					<!-- random image -->
+					<div class="caption center-align">
+						<h3>This is our big Tagline!</h3>
+						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</div>
+				</li>
+				<li>
+					<img src="assets/images/fichier/tanakaRemiseCertification.jpg">
+					<!-- random image -->
+					<div class="caption left-align">
+						<h3>Left Aligned Caption</h3>
+						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</div>
+				</li>
+				<li>
+					<img src="http://lorempixel.com/580/250/nature/3">
+					<!-- random image -->
+					<div class="caption right-align">
+						<h3>Right Aligned Caption</h3>
+						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</div>
+				</li>
+				<li>
+					<img src="assets/images/fichier/tanakaRemiseCertification2.jpg">
+					<!-- random image -->
+					<div class="caption center-align">
+						<h3>This is our big Tagline!</h3>
+						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</div>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+	<!--FOOTER-->
+	<footer class="page-footer">
+		<a class="btn-floating btn-large waves-effect waves-light yellow"><i class="material-icons">+</i></a>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<h5 class="white-text">CASR3PM</h5>
+					<p class="grey-text text-lighten-4">Le Centre d'Études Avancées et de Recherche en Management de Projet, Programme et Portefeuille(CASR3PM), est une institution
+						indépendante d'enseignement supérieur œuvrant dans le domaine du management de projet, de programme et de portefeuille.</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 offset-l2 s12">
+					<h5 class="white-text navigation">Navigation</h5>
+					<ul>
+						<li><a href="mobile.html"> ACCUEIL</a></li>
+						<li><a href="sass.html">A PROPOS DE CASR3PM</a></li>
+						<li><a href="badges.html">PROGRAMMES</a></li>
+						<li><a href="collapsible.html">ADMISSIONS</a></li>
+						<li><a href="mobile.html">CORPS PROFESSORAL</a></li>
+						<li><a href="mobile.html">ETUDIANTS</a></li>
+						<li><a href="mobile.html">RESSOURCES</a></li>
+						<li><a href="mobile.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 offset-l2 s12">
+					<h5 class="white-text">MAP</h5>
+					<div style="margin:0 auto;" id="zbwid-aade79cc"></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© 2016 SYTEK Innovation Response
+				<a class="grey-text text-lighten-4 right" href="#!"> <i class="fa fa-flag"></i> More Links</a>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY"
+		crossorigin="anonymous"></script>
+	<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB"
+		crossorigin="anonymous"></script>
+	<!--Bootstrap 4-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
+		crossorigin="anonymous"></script>
+	<!--Materialize-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<!--Google Map-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCB76D2mBo6keHa4q9OsQuNUNXg99o0w4&callback=initMap" async
+		defer></script>
+
+	<script src="assets/js/my_js.js"></script>
+	<script src="assets/js/gmap.js"></script>
+	<!--  -->
+	<script src="assets/js/jquery.fittext.js"></script>
+	<script src="assets/js/jquery.lettering-0.6.1.min.js"></script>
+	<script src="assets/js/jquery.textillate.js"></script>
+	
+
+</body>
+
+</html>
