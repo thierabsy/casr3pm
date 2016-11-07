@@ -107,7 +107,7 @@ header nav .brand-logo {
   .afterSlider .myTextt {
     width: 74%;
     height: auto;
-    background: blueviolet;
+    background: #394977;
     padding: 17px; }
   .afterSlider .aside {
     width: 25%;
@@ -117,7 +117,9 @@ header nav .brand-logo {
 
 /*FOOTER*/
 footer {
-  /*Footer*/ }
+  /*Footer*/
+  /*SOCIAL NETWORK*/
+  /*END SOCIAL NETWORK*/ }
   footer .page-footer {
     background-color: #3949ab !important;
     color: #f5f5f5 !important; }
@@ -145,5 +147,39 @@ footer {
     margin-top: -45px;
     margin-right: 302px;
     background-color: #00acc1; }
+  footer .network {
+    margin-top: 20px; }
+    footer .network ul.network {
+      overflow: auto;
+      float: left;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 15px; }
+      footer .network ul.network li {
+        list-style-type: none;
+        float: left; }
+      footer .network ul.network li a i {
+        background: #3b5998;
+        color: #fff;
+        width: 39px;
+        height: 39px;
+        border-radius: 30px;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 10px;
+        padding-top: 15%;
+        transition: all 0.2s ease-in-out; }
+      footer .network ul.network .fa-facebook {
+        background: #3B59F1; }
+      footer .network ul.network .fa-linkedin {
+        background: #007bb6; }
+      footer .network ul.network .fa-twitter {
+        background: #00aced; }
+      footer .network ul.network .fa-youtube {
+        background: #CC181E; }
+      footer .network ul.network li a i:hover {
+        opacity: .7; }
 
 /*# sourceMappingURL=fromSass.css.map */

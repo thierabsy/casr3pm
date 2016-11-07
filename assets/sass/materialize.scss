@@ -145,7 +145,7 @@ header{
     .myTextt{
         width: 74%;
         height: auto;
-        background: blueviolet;
+        background: #394977;
         padding: 17px;
        
     }
@@ -201,6 +201,54 @@ footer{
             background-color: #00acc1;
         }
 
+
+        /*SOCIAL NETWORK*/
+        .network{
+            margin-top: 20px;
+                ul.network{
+          overflow: auto;
+          float: left;
+          margin-top: 0;
+          margin-bottom: 0;
+          margin-left: 15px;
+ 
+        li {
+            list-style-type: none;
+            float: left;
+        }
+ 
+        li a i {
+            background: #3b5998;
+            color: #fff;
+            width: 39px;
+            height: 39px;
+            border-radius: 30px;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: 10px;
+            padding-top: 15%;
+            transition: all 0.2s ease-in-out;
+        }
+        .fa-facebook {
+        background:#3B59F1;
+        } 
+        .fa-linkedin {
+            background:#007bb6;
+        }
+        .fa-twitter {
+            background:#00aced;
+        }
+        .fa-youtube {
+            background:#CC181E;
+        }
+        li a i:hover {
+            opacity: .7;
+        }
+        }
+        }
+        /*END SOCIAL NETWORK*/
 
 
 }
