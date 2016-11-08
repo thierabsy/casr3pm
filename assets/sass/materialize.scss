@@ -74,34 +74,15 @@ header{
             height: 233px;
             display: flex;
             /*padding-top: 30px;*/
-            img{
+            .logoImg{
                 margin-top: 5px;
-                margin-left: 20px;
+                margin-left: 7%;
+                width: 33%;
+                height: 100%;
             }
-           div{
-                text-align: center;
-            }
-            h3 {
-                font-size: 2.8rem;
-                line-height: 106%;
-                margin: 0;
-                margin-right: 10%;
-            }
-            a:not([href]):not([tabindex]) {
-                color: inherit;
-                text-decoration: none;
-                float: right;
-                margin-top: 13px;
-                margin-right: 46%;
-            }
-            @media (max-width: 832px){
-                .logoImg{
-                    margin-left: 30%;
-                }
-                .textContent{
-                    display: none;
-                }
-
+           .dakar{
+                width: 67%;
+                height: 100%;
             }
     }
 

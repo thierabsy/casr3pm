@@ -55,27 +55,14 @@ header .banner {
   height: 233px;
   display: flex;
   /*padding-top: 30px;*/ }
-  header .banner img {
+  header .banner .logoImg {
     margin-top: 5px;
-    margin-left: 20px; }
-  header .banner div {
-    text-align: center; }
-  header .banner h3 {
-    font-size: 2.8rem;
-    line-height: 106%;
-    margin: 0;
-    margin-right: 10%; }
-  header .banner a:not([href]):not([tabindex]) {
-    color: inherit;
-    text-decoration: none;
-    float: right;
-    margin-top: 13px;
-    margin-right: 46%; }
-  @media (max-width: 832px) {
-    header .banner .logoImg {
-      margin-left: 30%; }
-    header .banner .textContent {
-      display: none; } }
+    margin-left: 20px;
+    width: 33%;
+    height: 100%; }
+  header .banner .dakar {
+    width: 67%;
+    height: 100%; }
 @media (max-width: 1175px) {
   header nav .nav-wrapper {
     margin-left: -21px;
