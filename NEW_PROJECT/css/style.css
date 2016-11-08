@@ -34,7 +34,7 @@ nav light-blue.lighten-1 {
 }
 /*DROPDOWN*/
 nav li a:hover, .dropdwn:hover .dropbtn {
-    background-color: #607d8b;
+    background-color: gray;
 }
 
 li.dropdwn {
@@ -57,7 +57,7 @@ li.dropdwn {
     text-align: left;
 }
 
-.dropdwn-content a:hover {background-color: #607d8b}
+.dropdwn-content a:hover {background-color: gray}
 
 .dropdwn:hover .dropdwn-content {
     display: block;

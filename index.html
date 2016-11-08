@@ -52,12 +52,21 @@
 
     <!--NAVBAR-->
     <nav class=" blue darken-4" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo">CASR3PM</a>
-        <ul class="right hide-on-med-and-down">
+      <div class="nav-wrapper container" id="navwrapper">
+
+        <ul class="hide-on-med-and-down" id="ulmenu">
           <li><a href="#"><i class="fa fa-home"></i> ACCUEIL</a></li>
           <li><a href="#">CASR3PM</a></li>
-          <li><a href="#">PROGRAMMES</a></li>
+          <li class="dropdwn">
+            <a href="#" class="dropbtn">PROGRAMMES<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <div class="dropdwn-content">
+              <a href="#">Masters</a>
+              <a href="#">MBA</a>
+              <a href="#">EMBA</a>
+              <a href="#">Seminaires</a>
+              <a href="#">Doctorat</a>
+            </div>
+          </li>
           <li class="dropdwn">
             <a href="#" class="dropbtn">ETUDIANTS<i class="fa fa-caret-down" aria-hidden="true"></i></a>
             <div class="dropdwn-content">
@@ -76,6 +85,7 @@
               <a href="#">LIENS UTILES</a>
             </div>
           </li>
+          <li><a href="#">PARTENAIRES</a></li>
           <li><a href="#">CONTACT</a></li>
         </ul>
 
@@ -274,6 +284,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/jquery.center.min.js"></script>
   <script src="js/pgwslider.js"></script>
 </body>
 
