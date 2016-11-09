@@ -8,7 +8,7 @@
      $('.slider').slider({full_width: true});
 
      $('.pgwSlider').pgwSlider({
-    maxHeight : 400,
+    maxHeight : 500,
     intervalDuration : 4000
 }
 	);

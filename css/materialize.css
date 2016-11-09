@@ -4111,6 +4111,7 @@ nav .brand-logo i.material-icons {
 
 nav ul {
   margin: 0;
+  margin-left: 30px;
 }
 
 nav ul li {

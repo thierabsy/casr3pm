@@ -34,7 +34,7 @@ nav light-blue.lighten-1 {
 }
 /*DROPDOWN*/
 nav li a:hover, .dropdwn:hover .dropbtn {
-    background-color: gray; 
+    background-color: gray;
 }
 
 
@@ -47,19 +47,24 @@ li.dropdwn {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 230px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-top: 5px solid yellow; 
 }
 
 .dropdwn-content a {
     color: black;
     padding: 0px 12px;
-    text-decoration: none;
-    display: block;
+    text-decoration: underline;
+    display: inline-block;
     text-align: left;
+    height: 40px;
 }
 
-.dropdwn-content a:hover {background-color: gray}
+.dropdwn-content a:hover {
+    background-color: gray;
+    padding-left: 20px;
+    }
 
 .dropdwn:hover .dropdwn-content {
     display: block;
@@ -88,14 +93,13 @@ nav .nav-wrapper {
 nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 50px;
     line-height: 50px;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 }
-@media only screen and (min-width: 601px){
-#iconNav {
-    height: 50px;
-    line-height: 50px;
-}}
+nav ul {
+    margin: 0;
+    margin-left: 30px;
+}
 
 /*Footer*/
 .page-footer{
