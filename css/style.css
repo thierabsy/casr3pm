@@ -15,6 +15,65 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+/*SPRITE*/
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-logo_casr3pm {
+   width: 300px;
+    height: 250px;
+    background-position: 0 0;
+    margin-right: 7%;
+    margin-left: 8%;
+}
+
+.sprite-monument-renaissance-africaine_dakar {
+   width: 300px;
+    height: 250px;
+    background-position: 0 -250px;
+    margin-right: 7%;
+}
+
+.sprite-place-ind_pendance_dakar {
+   width: 300px;
+    height: 250px;
+    background-position: -350px 0;
+    margin-left: 7%;
+}
+@media (max-width:1296px){
+    .sprite-logo_casr3pm {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+}
+@media (max-width:1126px){
+    .sprite-monument-renaissance-africaine_dakar {
+    margin-right: 2%;
+}
+
+.sprite-place-ind_pendance_dakar {
+    margin-left: 2%;
+}
+    #politique{
+        display: none !important;
+    }
+}
+@media (max-width:1004px){
+    .sprite-logo_casr3pm {
+    margin: 0;
+}
+.sprite-monument-renaissance-africaine_dakar {
+    margin: 0;
+}
+
+.sprite-place-ind_pendance_dakar {
+    margin: 0;
+}
+}
 /*NETWORK ICONS*/
 /*ul.network li a i {
 	background: white;
