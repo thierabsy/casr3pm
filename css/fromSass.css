@@ -99,19 +99,29 @@ header nav .brand-logo {
     width: 74%;
     height: auto;
     background: #394977;
-    padding: 17px; }
+    padding: 17px;
+    color: white; }
     .afterSlider .myTextt span .objectifParent {
       display: flex !important;
       flex-wrap: wrap; }
       .afterSlider .myTextt span .objectifParent .objectif {
         width: 30%; }
+    .afterSlider .myTextt span i {
+      background-color: black; }
   .afterSlider .aside {
     width: 25%;
     background: #394977; }
     .afterSlider .aside h5 {
       text-align: center; }
     .afterSlider .aside .voirPlus {
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 15px;
+      background-color: #2196F3; }
+    .afterSlider .aside .collapsible-body p {
+      margin: 0;
+      padding: 2rem;
+      background: gray;
+      color: white; }
 
 /*FOOTER*/
 footer {
