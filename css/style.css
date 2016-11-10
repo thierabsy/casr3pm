@@ -74,6 +74,26 @@
     margin: 0;
 }
 }
+@media (max-width:924px){
+    .sprite {
+    display: inline-block;
+    overflow: hidden;
+    width: 90%;
+    height: 250px;
+}
+
+.sprite-logo_casr3pm {
+}
+
+.sprite-monument-renaissance-africaine_dakar {
+    display: none;
+}
+
+.sprite-place-ind_pendance_dakar {
+    display: none;
+}
+    
+}
 /*NETWORK ICONS*/
 /*ul.network li a i {
 	background: white;
