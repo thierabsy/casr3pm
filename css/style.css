@@ -96,6 +96,12 @@
 }
     
 }
+@media (max-width:450px){
+.sprite-logo_casr3pm {
+    margin-left: 0;
+    width: 100%;
+}
+}
 /*NETWORK ICONS*/
 /*ul.network li a i {
 	background: white;
