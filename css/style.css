@@ -24,11 +24,11 @@
 }
 
 .sprite-logo_casr3pm {
-   width: 300px;
+   width: 350px;
     height: 250px;
     background-position: 0 0;
-    margin-right: 7%;
-    margin-left: 8%;
+    margin-right: 6%;
+    margin-left: 7%;
 }
 
 .sprite-monument-renaissance-africaine_dakar {
@@ -44,13 +44,13 @@
     background-position: -350px 0;
     margin-left: 7%;
 }
-@media (max-width:1296px){
+@media (max-width:1329px){
     .sprite-logo_casr3pm {
     margin-left: 2%;
     margin-right: 2%;
 }
 }
-@media (max-width:1126px){
+@media (max-width:1186px){
     .sprite-monument-renaissance-africaine_dakar {
     margin-right: 2%;
 }
@@ -62,7 +62,7 @@
         display: none !important;
     }
 }
-@media (max-width:1004px){
+@media (max-width:1058px){
     .sprite-logo_casr3pm {
     margin: 0;
 }
@@ -74,7 +74,7 @@
     margin: 0;
 }
 }
-@media (max-width:924px){
+@media (max-width:974px){
     .sprite {
     background-image: url(spritesheet.png);
     background-repeat: no-repeat;
@@ -122,6 +122,9 @@ nav light-blue.lighten-1 {
 /*DROPDOWN*/
 nav li a:hover, .dropdwn:hover .dropbtn {
     background-color: gray;
+}
+nav .nav-wrapper{
+    left: 6%;
 }
 
 
@@ -173,8 +176,9 @@ nav .nav-wrapper {
 }*/
 @media (max-width: 1175px){
   nav .nav-wrapper {
-    margin-left: -21px;
+    /*margin-left: -21px;*/
     margin-right: 0;
+    left: 5%;
 }
 }
 
@@ -182,7 +186,7 @@ nav .nav-wrapper {
 nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 50px;
     line-height: 50px;
-    margin-left: 30px;
+    /*margin-left: px;*/
 }
 }
 nav ul {
