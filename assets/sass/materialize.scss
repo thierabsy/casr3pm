@@ -134,16 +134,24 @@ header{
         background: #394977;
         padding: 17px;
         color: white;
-        span{
-            .objectifParent{
+        
+        .objectifParent{
                 display: flex !important;
                 flex-wrap: wrap;
+                justify-content: center;
+                text-align: center;
                 .objectif{
                     width: 30%;
+                    border: 2px solid;
+                    margin: 1%;
+                    padding: 5px;
+                    border-radius: 60px;
                 }
-            }
+            
         i{
             background-color: black;
+            border-radius: 10px;
+            font-size: 40px;
         }
         }
        

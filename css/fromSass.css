@@ -101,13 +101,21 @@ header nav .brand-logo {
     background: #394977;
     padding: 17px;
     color: white; }
-    .afterSlider .myTextt span .objectifParent {
+    .afterSlider .myTextt .objectifParent {
       display: flex !important;
-      flex-wrap: wrap; }
-      .afterSlider .myTextt span .objectifParent .objectif {
-        width: 30%; }
-    .afterSlider .myTextt span i {
-      background-color: black; }
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center; }
+      .afterSlider .myTextt .objectifParent .objectif {
+        width: 30%;
+        border: 2px solid;
+        margin: 1%;
+        padding: 5px;
+        border-radius: 60px; }
+      .afterSlider .myTextt .objectifParent i {
+        background-color: black;
+        border-radius: 10px;
+        font-size: 40px; }
   .afterSlider .aside {
     width: 25%;
     background: #394977; }
