@@ -5,6 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
+ html{
+     width: 100%;
+ }
  body{
    width: 100%;
  }
@@ -124,7 +127,7 @@ nav li a:hover, .dropdwn:hover .dropbtn {
     background-color: gray;
 }
 nav .nav-wrapper{
-    left: 6%;
+    left: 1%;
 }
 
 
@@ -137,7 +140,7 @@ li.dropdwn {
 .dropdwn-content {
     display: none;
     position: absolute;
-    background-color: #738fbf;
+    background-color: rgb(59, 59, 72);
     min-width: 230px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-top: 5px solid yellow; 
@@ -165,20 +168,25 @@ li.dropdwn {
 
 @media only screen and (min-width: 993px){
 .container {
-     width: 100%; 
+     width: 86%; 
 }
 }
+/*@media only screen and (min-width: 993px){
+footer .container {
+     width: 86%;
+}
+}*/
 /*@media (max-width: 1175px){
 nav .nav-wrapper {
      margin-left: 0px; 
     margin-right: 0px;
 }
 }*/
-@media (max-width: 1175px){
+@media (max-width: 1206px){
   nav .nav-wrapper {
     /*margin-left: -21px;*/
-    margin-right: 0;
-    left: 5%;
+    /*margin-right: 0;*/
+    left: 1%;
 }
 }
 
@@ -240,6 +248,10 @@ footer a:not([href]):not([tabindex]) {
     height: 300px;
     background: white;
 }
+    .afterSlider{
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;}
 }
 
 /*.myText h2 {

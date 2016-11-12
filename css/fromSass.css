@@ -69,10 +69,8 @@ header .banner li {
     /*margin-left: 500px;*/ }
 @media (max-width: 1175px) {
   header nav .nav-wrapper {
-    margin-left: -21px;
-    margin-right: -21px; } }
-header nav .brand-logo {
-  margin-left: 22px; }
+    /*margin-left: -21px;
+    margin-right: -21px;*/ } }
 
 .blueRectangle {
   display: flex;
@@ -86,8 +84,8 @@ header nav .brand-logo {
     background: white; }
   .blueRectangle section {
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px; }
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
 .afterSlider {
   display: flex;
@@ -116,6 +114,27 @@ header nav .brand-logo {
         background-color: black;
         border-radius: 10px;
         font-size: 40px; }
+    .afterSlider .myTextt .groupSy .col {
+      border: 1px solid white;
+      width: 30%;
+      margin: 1%;
+      height: 200px;
+      padding: 0; }
+      .afterSlider .myTextt .groupSy .col h5 {
+        text-align: center; }
+      .afterSlider .myTextt .groupSy .col .divider {
+        width: 100%; }
+      .afterSlider .myTextt .groupSy .col ul {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 8px 0; }
+        .afterSlider .myTextt .groupSy .col ul li {
+          border-bottom: 1px dashed grey; }
+      .afterSlider .myTextt .groupSy .col .globalEvent ul:first-child {
+        background-image: url("../assets/images/conference_global_events_sm.jpg");
+        width: 100%;
+        max-height: 50% !important;
+        background-size: cover; }
   .afterSlider .aside {
     width: 25%;
     background: #394977; }
@@ -135,6 +154,8 @@ header nav .brand-logo {
 footer {
   /*SOCIAL NETWORK*/
   /*END SOCIAL NETWORK*/ }
+  footer .row {
+    margin-bottom: 0px !important; }
   footer .page-footer {
     background-color: #3949ab !important;
     color: #f5f5f5 !important; }
