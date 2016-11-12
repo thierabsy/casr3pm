@@ -3,6 +3,12 @@ body{
     background: rgba(217,217,217,0.75);
 }
 
+#toast-container {
+    position: fixed !important;
+    bottom: 0px !important;
+    left: 0px !important;
+}
+
 header{
     .topOfPage{
         height: 30px;
