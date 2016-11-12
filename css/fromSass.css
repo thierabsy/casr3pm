@@ -131,6 +131,11 @@ header .banner li {
         margin: 8px 0; }
         .afterSlider .myTextt .groupSy .col ul li {
           border-bottom: 1px dashed grey; }
+      .afterSlider .myTextt .groupSy .col .globalEvent ul li {
+        border-bottom: 0px dashed grey; }
+        .afterSlider .myTextt .groupSy .col .globalEvent ul li a {
+          color: white !important;
+          font-size: 12px; }
   .afterSlider .aside {
     width: 25%;
     background: #394977; }

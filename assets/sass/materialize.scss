@@ -176,7 +176,16 @@ header{
                 }
             }
             .globalEvent{
-                img{
+                ul{
+                    li{
+                        border-bottom: 0px dashed grey;
+                        a{
+                        color: white !important;
+                        font-size: 12px;
+                    }
+                    }
+                    
+                   
                 }
             }
         }
