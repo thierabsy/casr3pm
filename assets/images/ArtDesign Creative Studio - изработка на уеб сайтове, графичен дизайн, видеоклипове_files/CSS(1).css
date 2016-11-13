@@ -1,0 +1,748 @@
+@font-face {
+  font-family: "earthlight";
+  src: url("../Fonts/EarthLight/earthlight-webfont.eot");
+  src: url("../Fonts/EarthLight/earthlight-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/EarthLight/earthlight-webfont.woff2") format("woff2"), url("../Fonts/EarthLight/earthlight-webfont.woff") format("woff"), url("../Fonts/EarthLight/earthlight-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "earthregular";
+  src: url("../Fonts/EarthRegular/earthregular-webfont.eot");
+  src: url("../Fonts/EarthRegular/earthregular-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/EarthRegular/earthregular-webfont.woff2") format("woff2"), url("../Fonts/EarthRegular/earthregular-webfont.woff") format("woff"), url("../Fonts/EarthRegular/earthregular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "ristretto_proregular";
+  src: url("../Fonts/Ristretto/ristrettopro-regular-webfont.eot");
+  src: url("../Fonts/Ristretto/ristrettopro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/Ristretto/ristrettopro-regular-webfont.woff2") format("woff2"), url("../Fonts/Ristretto/ristrettopro-regular-webfont.woff") format("woff"), url("../Fonts/Ristretto/ristrettopro-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*Fonts */
+/*******************************************************************************Href */
+a {
+  text-decoration: none;
+  color: #ff8106;
+  outline: none; }
+
+/*******************************************************************************Href */
+/*******************************************************************************Headers */
+h1 {
+  color: #1d4152; }
+
+h2 {
+  color: #1d4152; }
+
+/*******************************************************************************Headers */
+/*******************************************************************************Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none; }
+
+tr, td {
+  margin: 0;
+  padding: 0; }
+
+/*******************************************************************************Tables */
+/*******************************************************************************HTML, Body */
+html, body {
+  width: 100%;
+  height: 100%;
+  min-height: 550px;
+  margin: 0;
+  padding: 0;
+  background-color: #1d4152;
+  color: #90afbe;
+  font-family: "earthregular";
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden; }
+
+::selection {
+  background: rgba(34, 55, 68, 0.6);
+  color: #367696; }
+
+::-moz-selection {
+  background: rgba(34, 55, 68, 0.6);
+  color: #367696; }
+
+/*******************************************************************************HTML, Body */
+/*******************************************************************************Phone */
+.Phone {
+  position: absolute;
+  z-index: 41;
+  top: 40px;
+  font-family: "ristretto_proregular";
+  font-size: 24px;
+  font-weight: bold;
+  width: 250px;
+  text-align: right; }
+  @media (min-width: 620px) and (max-width: 999px) {
+    .Phone {
+      display: none; } }
+  @media (min-width: 0px) and (max-width: 619px) {
+    .Phone {
+      display: none; } }
+
+.PhoneAnimation {
+  opacity: 0; }
+
+.PhoneIcon {
+  font-size: 22px;
+  line-height: 0.3em;
+  opacity: 0;
+  color: #ff8106;
+  padding-left: 10px; }
+
+/*******************************************************************************Phone */
+/*******************************************************************************Section Screen */
+.ScreenLeft {
+  width: 270px;
+  height: 100%;
+  background-color: #1d4152;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 30; }
+  @media (min-width: 620px) and (max-width: 999px) {
+    .ScreenLeft {
+      width: 160px; } }
+  @media (min-width: 0px) and (max-width: 619px) {
+    .ScreenLeft {
+      display: none; } }
+
+.ScreenOverlay {
+  width: 100%;
+  height: 100%;
+  background-color: #295a72;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0.9; }
+
+.ScreenLines {
+  width: 100%;
+  height: 100%;
+  background-image: url("../Images/PatternStripe.png");
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20; }
+
+.ScreenNoise {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  opacity: 0; }
+
+/*******************************************************************************Section Screen */
+/*******************************************************************************Section Intro Logo */
+.SectionIntroLogo {
+  position: relative;
+  z-index: 49;
+  display: none; }
+
+.Logo {
+  width: 193px;
+  height: 55px;
+  position: absolute;
+  top: 120px;
+  right: 20px; }
+
+.LogoPath1, .LogoPath2 {
+  fill: #1d4152; }
+
+.LogoTextBlock1 {
+  position: fixed;
+  top: 80px;
+  right: 24px;
+  text-align: right;
+  font-family: "earthregular";
+  font-size: 16px;
+  color: #90afbe; }
+
+.LogoTextBlock2 {
+  position: fixed;
+  top: 210px;
+  right: 46px;
+  text-align: right;
+  font-family: "earthregular";
+  font-size: 16px;
+  color: #90afbe;
+  opacity: 0; }
+
+/*******************************************************************************Section Intro Logo */
+/*******************************************************************************Section Menu */
+.SectionMenu {
+  display: none; }
+
+.MenuButton {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 84px;
+  right: 8px;
+  z-index: 50;
+  opacity: 0; }
+
+.MenuPath {
+  stroke: #ff8106;
+  stroke-width: 5; }
+
+.MenuIcon {
+  opacity: 0;
+  cursor: pointer; }
+
+.MenuIconContent {
+  position: relative;
+  right: 14px; }
+
+.MenuContent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 22;
+  display: none;
+  opacity: 0; }
+
+.MenuContentCenter {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  font-family: "earthregular";
+  font-size: 18px;
+  font-weight: bold; }
+
+.MenuContentCenter ul {
+  margin: 0;
+  padding: 0; }
+
+.MenuContentCenter li {
+  list-style-type: none;
+  background-color: #1d4152;
+  margin-top: 20px;
+  border-left: 5px solid #ff8106;
+  cursor: pointer; }
+
+.MenuContentCenter li a {
+  color: #90afbe;
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding-left: 30px;
+  line-height: 2.8em; }
+
+.NotActive1 {
+  width: 100%;
+  height: 50px;
+  padding-left: 30px;
+  line-height: 2.8em; }
+
+/*******************************************************************************Section Menu */
+/*******************************************************************************Section Circle Slider */
+.SectionCircleSlider {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  top: 130px;
+  z-index: 30;
+  overflow: hidden;
+  display: none;
+  left: 130px;
+  margin-left: 0; }
+  @media (min-width: 620px) and (max-width: 999px) {
+    .SectionCircleSlider {
+      left: 20px;
+      margin-left: 0; } }
+  @media (min-width: 0px) and (max-width: 619px) {
+    .SectionCircleSlider {
+      display: none !important; } }
+
+.HalfCircleLeft, .HalfCircleRight {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.HalfCircleLeft {
+  fill: #1d4152;
+  opacity: 0; }
+
+.HalfCircleRight {
+  fill: #295a72;
+  opacity: 0; }
+
+.CircleSliderContent {
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #295a72 url("../Images/PatternStripe.png");
+  border: 2px solid #295a72;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transform: translateZ(0); }
+
+.CircleSlider {
+  width: 240px;
+  height: 240px; }
+
+.CircleOverlay {
+  width: 240px;
+  height: 240px;
+  margin-top: -240px;
+  background-color: #ff8106;
+  opacity: 0.1; }
+
+/*******************************************************************************Section Circle Slider */
+/*******************************************************************************Section Background Slider */
+.SectionBackgroundSlider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; }
+
+.BackgroundSliderTable {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+/*******************************************************************************Section Background Slider */
+/*******************************************************************************Section Social */
+.SectionSocial {
+  width: 240px;
+  height: 43px;
+  position: fixed;
+  z-index: 21;
+  bottom: 12px;
+  right: 7px;
+  display: none; }
+
+.SocialPath {
+  fill: #1d4152; }
+
+.MailPath {
+  fill: #ff8106; }
+
+.SVGFixPointer {
+  opacity: 0;
+  cursor: pointer; }
+
+/*******************************************************************************Section Social */
+/*******************************************************************************Section Contact Us */
+.col-1-1, .col-1-3, .col-4-12, .col-8-12 {
+  padding-right: 20px; }
+
+.FormContent {
+  margin-top: 36px; }
+
+.ContactUsContentBackground, .MenuContentBackground {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #295a72 url("../Images/PatternStripe.png");
+  z-index: 22;
+  display: none;
+  opacity: 0; }
+
+.ContactUsContent, .MenuUsContent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 22;
+  display: none;
+  opacity: 0; }
+
+.ContactUsContentLeftFix, .MenuContentLeftFix {
+  margin-right: 16px;
+  padding-bottom: 170px;
+  height: 100%;
+  margin-top: 170px;
+  margin-left: 430px; }
+  @media (min-width: 620px) and (max-width: 999px) {
+    .ContactUsContentLeftFix, .MenuContentLeftFix {
+      margin-left: 340px; } }
+  @media (min-width: 0px) and (max-width: 619px) {
+    .ContactUsContentLeftFix, .MenuContentLeftFix {
+      margin-left: 56px; } }
+
+.MenuContentCenter ul {
+  padding-top: 80px;
+  padding-bottom: 50px; }
+
+.ContactUsContentCenter, .MenuContentCenter {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 30px; }
+
+.ContactTable {
+  width: 100%; }
+
+.ContactTable td {
+  vertical-align: top; }
+
+.ContactTable .ContactTD {
+  width: 33%; }
+
+.ContactTable .ContactColspan {
+  padding-top: 20px; }
+
+.Input {
+  font-family: "earthlight";
+  font-size: 14px;
+  line-height: 1.8em;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  background: #1d4152;
+  color: #90afbe;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #ff8106;
+  padding: 9px 9px 9px 9px; }
+
+.TextArea {
+  font-family: "earthlight";
+  font-size: 14px;
+  line-height: 1.8em;
+  resize: none;
+  box-sizing: border-box;
+  width: 100%;
+  height: 150px;
+  max-height: 150px;
+  overflow: hidden;
+  float: left;
+  background: #1d4152;
+  color: #90afbe;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #ff8106;
+  padding: 14px 14px 14px 14px; }
+
+::-webkit-input-placeholder {
+  color: #90afbe; }
+
+.InputMargin {
+  padding-right: 20px; }
+
+.Button {
+  width: 100%;
+  background: #ff8106;
+  color: #1d4152;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #1d4152;
+  padding: 8px 14px 8px 14px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  font-family: "earthregular";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.8em; }
+
+#HelloNameCompany, #HelloEmail, #HelloContactNumber, #HelloMessage, #InfoContactUs {
+  font-family: "earthregular";
+  margin-bottom: 20px; }
+
+#HelloResult {
+  font-family: "earthregular";
+  font-size: 15px;
+  line-height: 1.8em;
+  padding-bottom: 60px; }
+  @media (min-width: 1000px) and (max-width: 1199px) {
+    #HelloResult {
+      margin-top: 40px; } }
+  @media (min-width: 620px) and (max-width: 999px) {
+    #HelloResult {
+      margin-top: 40px; } }
+  @media (min-width: 0px) and (max-width: 619px) {
+    #HelloResult {
+      margin-top: 40px; } }
+
+#TitleContactUsContent {
+  height: 170px; }
+
+#TitleContactUs {
+  height: 80px;
+  position: relative; }
+
+.TitleContactUs {
+  text-align: left;
+  font-family: "ristretto_proregular";
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 1em;
+  position: absolute;
+  border-bottom: 2px solid #ff8106; }
+
+#InfoContactUs {
+  text-align: left;
+  font-family: "earthregular";
+  font-size: 14px;
+  line-height: 1.8em; }
+
+.InfoContactUs {
+  padding-top: 20px; }
+
+.ContactUsIcon {
+  font-size: 20px;
+  color: #ff8106;
+  padding-right: 10px;
+  line-height: 1em; }
+
+/*******************************************************************************Section Contact Us */
+/*******************************************************************************Section Bottom Info */
+.SectionInfo {
+  width: 44px;
+  height: 164px;
+  position: fixed;
+  bottom: 10px;
+  left: -40px;
+  z-index: 30; }
+
+.BottomLeftLogoPath {
+  fill: #ff8106; }
+
+.BottomInfo {
+  position: absolute;
+  bottom: 7px;
+  left: 48px;
+  width: 220px;
+  height: 300px;
+  font-family: "earthlight";
+  font-size: 14px; }
+  @media (min-width: 620px) and (max-width: 999px) {
+    .BottomInfo {
+      display: none; } }
+  @media (min-width: 0px) and (max-width: 619px) {
+    .BottomInfo {
+      display: none; } }
+
+.BottomInfo td {
+  vertical-align: bottom; }
+
+.BottomInfoText {
+  font-family: "earthregular";
+  font-size: 14px;
+  display: none; }
+
+/*******************************************************************************Section Bottom Info */
+/*******************************************************************************Article */
+.ArticleContent {
+  width: 100%;
+  position: absolute;
+  top: 152px;
+  bottom: 64px;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  z-index: 20;
+  outline: none !important; }
+
+#Content, .Content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  outline: none !important; }
+
+.MyClass {
+  position: absolute;
+  right: 34px;
+  left: 430px; }
+  @media (min-width: 620px) and (max-width: 999px) {
+    .MyClass {
+      left: 320px; } }
+  @media (min-width: 0px) and (max-width: 619px) {
+    .MyClass {
+      left: 55px; } }
+
+.Content ul {
+  display: none; }
+
+.WC_NavigationRight table {
+  position: absolute;
+  margin-bottom: 100px !important;
+  top: 240px !important; }
+
+/*******************************************************************************Article */
+.Title {
+  text-align: left;
+  font-family: "ristretto_proregular";
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 1em;
+  top: 38px;
+  left: 0;
+  position: absolute;
+  border-bottom: 2px solid #ff8106; }
+
+.InfoContent {
+  position: absolute; }
+
+.ContentTitle {
+  margin-bottom: 40px; }
+
+.SubTitle {
+  font-family: "earthregular";
+  font-size: 40px;
+  font-weight: normal; }
+
+.SubTitleLeft {
+  color: #ff8106;
+  font-size: 40px;
+  line-height: 1.15em; }
+
+.SubTitleLeft1 {
+  width: 40px; }
+
+.SubTitleLeft2 {
+  width: 60px; }
+
+.SubTitleLeft3 {
+  width: 74px; }
+
+.SubTitleRight {
+  font-family: "ristretto_proregular";
+  font-size: 40px;
+  font-weight: normal;
+  color: #1d4152; }
+
+.SubTitleAll {
+  font-family: "ristretto_proregular";
+  font-size: 40px;
+  font-weight: normal;
+  color: #1d4152; }
+
+.SubTitleAll::first-letter {
+  color: #ff8106; }
+
+.InfoText {
+  font-family: "earthregular";
+  font-size: 14px;
+  line-height: 1.8em;
+  border-left: 2px solid #ff8106;
+  padding-left: 15px;
+  padding-right: 20px !important; }
+  @media (min-width: 1200px) {
+    .InfoText {
+      width: 28%; } }
+
+.InfoText2 {
+  font-family: "earthregular";
+  font-size: 14px;
+  line-height: 1.8em;
+  padding-right: 20px !important; }
+  @media (min-width: 1200px) {
+    .InfoText2 {
+      width: 28%; } }
+
+.InfoText3 {
+  font-family: "earthregular";
+  font-size: 14px;
+  line-height: 1.8em;
+  padding-right: 20px !important; }
+
+.InfoText4 {
+  font-family: "earthregular";
+  font-size: 14px;
+  line-height: 1.8em;
+  border-left: 2px solid #ff8106;
+  padding-left: 15px;
+  padding-right: 20px !important; }
+  @media (min-width: 1200px) {
+    .InfoText4 {
+      width: 48%; } }
+
+.Page1Content {
+  width: 300px;
+  display: table; }
+
+.Page1IconContent {
+  width: 150px;
+  height: 160px !important;
+  margin-top: 50px;
+  margin-right: 15px;
+  float: left; }
+
+.Page1Icon {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ff8106;
+  border-radius: 50%;
+  overflow: hidden; }
+
+.Page1IconPath {
+  fill: #1d4152;
+  stroke: #1d4152; }
+
+.Page1IconPath2 {
+  stroke-width: 4; }
+
+.Page1IconPathStroke1 {
+  stroke-width: 7;
+  stroke-miterlimit: 10; }
+
+.Page1Info {
+  float: left;
+  margin-top: 35px; }
+
+.DisplayTable {
+  display: table;
+  width: 100%; }
+
+.Invisible {
+  display: none; }
+
+.ButtonHover {
+  opacity: 0; }
+
+.Last {
+  margin-bottom: 60px; }
+
+.LeftIcon {
+  color: #ff8106;
+  position: absolute; }
+
+.RightToIcon {
+  margin-left: 20px; }
+
+.BottomTelephone {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 110px;
+  color: #ff8106;
+  font-family: "ristretto_proregular";
+  font-size: 24px;
+  font-weight: bold; }
+
+/*# sourceMappingURL=CSS.css.map */

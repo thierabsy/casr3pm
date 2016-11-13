@@ -102,7 +102,7 @@ header .banner li {
     width: 74%;
     height: auto;
     background: #394977;
-    padding: 17px;
+    padding: 0 17px;
     color: white; }
     .afterSlider .myTextt .objectifParent {
       display: flex !important;
@@ -119,6 +119,8 @@ header .banner li {
         background-color: black;
         border-radius: 10px;
         font-size: 40px; }
+    .afterSlider .myTextt .groupSy .row {
+      margin-bottom: 0; }
     .afterSlider .myTextt .groupSy .col {
       border: 1px solid white;
       width: 30.3%;
@@ -150,11 +152,36 @@ header .banner li {
       width: 100%;
       margin-bottom: 15px;
       background-color: #2196F3; }
+    .afterSlider .aside .voirPlus2 {
+      width: 100%;
+      margin-bottom: 0px;
+      background-color: #2196F3; }
     .afterSlider .aside .collapsible-body p {
       margin: 0;
       padding: 2rem;
       background: gray;
       color: white; }
+    .afterSlider .aside ul {
+      padding-left: 10px;
+      padding-right: 10px;
+      margin: 8px 0; }
+      .afterSlider .aside ul li {
+        border-bottom: 1px dashed grey; }
+        .afterSlider .aside ul li a {
+          color: white; }
+
+.partenaires {
+  height: auto;
+  width: 86%;
+  margin-left: 7%;
+  margin-right: 7%;
+  /*background: #394977;*/
+  overflow: hidden; }
+  .partenaires #owl-demo .item {
+    margin: 3px; }
+  .partenaires #owl-demo .item img {
+    width: 100%;
+    height: auto; }
 
 /*FOOTER*/
 footer {

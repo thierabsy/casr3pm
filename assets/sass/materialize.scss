@@ -136,7 +136,7 @@ header{
         width: 74%;
         height: auto;
         background: #394977;
-        padding: 17px;
+        padding: 0 17px;
         color: white;
         
         .objectifParent{
@@ -157,6 +157,9 @@ header{
             border-radius: 10px;
             font-size: 40px;
         }
+        }
+        .groupSy .row{
+            margin-bottom: 0;
         }
         .groupSy .col{
             border: 1px solid white;
@@ -208,12 +211,43 @@ header{
             margin-bottom:15px;
             background-color: #2196F3;
         }
+        .voirPlus2{
+            width: 100%;
+            margin-bottom:0px;
+            background-color: #2196F3;
+        }
         .collapsible-body p {
             margin: 0;
             padding: 2rem;
             background: gray;
             color: white;
 }
+        ul{
+             padding-left: 10px;
+                padding-right: 10px;
+                margin: 8px 0;
+                li{
+                    border-bottom: 1px dashed grey;
+                    a{
+                        color: white;
+                    }
+                }
+        }
+    }
+}
+.partenaires{
+    height: auto;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    /*background: #394977;*/
+    overflow: hidden;
+    #owl-demo .item{
+     margin: 3px;
+    }
+    #owl-demo .item img{
+    width: 100%;
+    height: auto;
     }
 }
 
