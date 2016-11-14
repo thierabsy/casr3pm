@@ -124,10 +124,13 @@ nav light-blue.lighten-1 {
 }
 /*DROPDOWN*/
 nav li a:hover, .dropdwn:hover .dropbtn {
-    background-color: gray;
+    background-color: rgb(223, 211, 27);
+}
+nav ul li.active {
+    background-color: rgb(223, 211, 27);
 }
 nav .nav-wrapper{
-    left: 1%;
+    left: -2%;
 }
 
 
@@ -140,11 +143,11 @@ li.dropdwn {
 .dropdwn-content {
     display: none;
     position: absolute;
-    background-color: rgb(59, 59, 72);
-    min-width: 230px;
+    background-color: #394977;
+    /*min-width: 230px;*/
+    max-width: 460px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    border-top: 5px solid yellow; 
-    border-bottom: 5px solid yellow; 
+    border-bottom: 5px solid rgb(223, 211, 27); 
 }
 
 .dropdwn-content a {

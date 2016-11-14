@@ -8,7 +8,7 @@
      $('.slider').slider({full_width: true});
 
      $('.pgwSlider').pgwSlider({
-    maxHeight : 500,
+    maxHeight : 400,
     intervalDuration : 4000
 }
 	);
@@ -16,6 +16,8 @@
     $('.modal').modal();
 
     $('.tooltipped').tooltip({delay: 50});
+
+    $('ul.tabs').tabs();
 
     // OWL
    $("#owl-demo").owlCarousel({
