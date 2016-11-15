@@ -1,5 +1,27 @@
+.slideshow {
+  width: 350px;
+  height: 200px;
+  overflow: hidden;
+  border: 3px solid #F2F2F2; }
+
+.slideshow ul {
+  /* 4 images donc 4 x 100% */
+  width: 400%;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.slideshow li {
+  float: left; }
+
 body {
   background: rgba(217, 217, 217, 0.75); }
+
+.smallLine {
+  width: 100%;
+  height: 2px;
+  background-color: #e9b42b; }
 
 header .topOfPage {
   height: 30px;
@@ -114,10 +136,10 @@ header .banner li {
       margin-bottom: 0; }
     .afterSlider .myTextt .temoignages {
       width: 100%;
-      height: 200px; }
+      height: 130px; }
     .afterSlider .myTextt .groupSy .col {
-      border: 1px solid white;
-      width: 30.3%;
+      border: 4px solid #e9b42b;
+      width: 31.3%;
       margin: 1%;
       height: 272px;
       padding: 0;
@@ -125,13 +147,16 @@ header .banner li {
       .afterSlider .myTextt .groupSy .col h5 {
         text-align: center; }
       .afterSlider .myTextt .groupSy .col .divider {
-        width: 100%; }
+        width: 100%;
+        background-color: #e9b42b; }
       .afterSlider .myTextt .groupSy .col ul {
         padding-left: 10px;
         padding-right: 10px;
         margin: 8px 0; }
         .afterSlider .myTextt .groupSy .col ul li {
           border-bottom: 1px dashed grey; }
+      .afterSlider .myTextt .groupSy .col .globalEvent img {
+        margin: 2% 2% 0 2% !important; }
       .afterSlider .myTextt .groupSy .col .globalEvent ul li {
         border-bottom: 0px dashed grey; }
         .afterSlider .myTextt .groupSy .col .globalEvent ul li a {
@@ -209,7 +234,7 @@ header .banner li {
           color: white; }
 
 .partenaires {
-  height: auto;
+  height: 200px;
   width: 86%;
   margin-left: 7%;
   margin-right: 7%;
@@ -220,6 +245,11 @@ header .banner li {
   .partenaires #owl-demo .item img {
     width: 100%;
     height: auto; }
+
+#gallery {
+  margin-left: 15%;
+  margin-top: 1%;
+  border: 4px solid #e9b42b; }
 
 /*FOOTER*/
 footer {

@@ -19,6 +19,9 @@
 
     $('ul.tabs').tabs();
 
+    $("#gallery").unitegallery();	
+
+
     // OWL
    $("#owl-demo").owlCarousel({
  

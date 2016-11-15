@@ -131,6 +131,7 @@ nav ul li.active {
 }
 nav .nav-wrapper{
     left: -2%;
+    font-size: 14px;
 }
 
 
@@ -143,7 +144,7 @@ li.dropdwn {
 .dropdwn-content {
     display: none;
     position: absolute;
-    background-color: rgba(57, 73, 119, 0.9);
+    background-color: rgba(57, 73, 119, 0.8);
     /*min-width: 230px;*/
     max-width: 460px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -152,6 +153,7 @@ li.dropdwn {
 
 .dropdwn-content a {
     color: white;
+    font-size: 12px;
     padding: 0px 12px;
     text-decoration: underline;
     display: inline-block;
@@ -230,8 +232,12 @@ footer a:not([href]):not([tabindex]) {
 }
 
 @media only screen and (min-width: 993px){
-.row .col.l4 {
+.temoignage {
     text-align: justify;
+    border: 4px solid rgb(233, 180, 43) !important;
+    margin: 1% !important;
+    width: 31.333333% !important;
+    padding: 0 !important;
 }
 }
 
